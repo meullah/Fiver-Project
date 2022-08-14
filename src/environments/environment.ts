@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  api_key: "xEpQxqrBddP3zgfIOD3xYKiuOn724lOaOlWclJfa",
-  base_api_url: "https://api.foia.gov/api/agency_components?&fields[agency_component]=title,abbreviation,website,submission_address",
+  api_key: 'xEpQxqrBddP3zgfIOD3xYKiuOn724lOaOlWclJfa',
+  base_api_url:
+    'https://api.foia.gov/api/agency_components/?&fields[agency_component]=title,abbreviation,website,submission_address',
+  details_base_url: 'https://api.foia.gov/api/agency_components/',
 };
 
 /*
