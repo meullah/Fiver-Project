@@ -1,27 +1,27 @@
-# FiverProject
+# Angular Interview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+## Pros and Cons of a few methods of communication between Angular components.
 
-## Development server
+Methods for comuncations are:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Parent to Child Communication
+    - Using @Input Decorator to Pass Data
+    - Listen for Input Changes
+    - OnChanges Life Cycle hook
+    - Angular @input, @output & EventEmitter
 
-## Code scaffolding
+2. Child to Parent Communication
+    - Listens to Events from Child (Output & EventEmitter)
+    - Uses Local Variable to access the child in the Template
+    - Uses a @ViewChild to get a reference to the child component
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Interaction when there is no parent-child relation
+    - Services can be used in such cases.
 
-## Build
+Usage depend upon the requirements. Evey method has its own advantage or usage. Can not tell pros and cons 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Describe 3 things you dislike about Angular?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+I am not familiar with any major disadvantage of Angular. Some people say it is slow. 
+Project size is big as compared to others. But I don't feel any of these. 
